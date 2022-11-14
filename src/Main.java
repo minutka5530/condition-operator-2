@@ -66,7 +66,7 @@ public class Main {
                 System.out.println("ноябрь");
                 break;
             case 12:
-                System.out.println("декабрь");
+                System.out.println("декабрь/");
                 break;
             default:
                 System.out.println("Такого месяца не существует/");
