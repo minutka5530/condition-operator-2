@@ -1,20 +1,20 @@
 public class Main {
     public static void main(String[] args) {
         int clientOS = 1;
-        System.out.println("Установите версию приложения для iOS по ссылке");
-        int  clientDeviceYear = 2015;
-        if ( clientDeviceYear + clientOS >= 2015 ) {
-
-            System.out.println("  приложение будет работать корректно");
-        } else  {
-            System.out.println(" установить облегченную версию приложения");
+        if (clientOS == 1) {
+            System.out.println("Установите версию приложения для iOS по ссылке");
+        } else if (clientOS == 0) {
+            System.out.println("Установите версию приложения для Android по ссылке");
         }
-        int year = 2021;
-        if (year == 2021) {
+        int currentYear = 2023;
+        if (currentYear % 4 == 0 && currentYear % 100 != 0 || currentYear % 400 == 0){
             System.out.println("Год высокосный");
         } else {
             System.out.println("Не высокосный");
         }
+
+
+
         int deliveryDistance = 100;
         int day = 0;
 
